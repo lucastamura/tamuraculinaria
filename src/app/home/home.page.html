@@ -1,20 +1,79 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
+    <ion-title> Cardário - Tamura Culinária </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-grid>
+    <ion-col>
+      <ion-row>
+        <img src="../../assets/icon/favicon.png" alt="" />
+      </ion-row>
+      <ion-row class="container-card">
+        <ion-card class="bg-red">
+          <ion-img
+            alt="Silhouette of mountains"
+            src="../../assets/20210613_172853 (1).jpg"
+          ></ion-img>
+          <ion-card-header>
+            <ion-card-title>Guiozas</ion-card-title>
+            <ion-card-subtitle> Suíno R$00,00 </ion-card-subtitle>
+            <ion-card-subtitle> Legumes R$00,00 </ion-card-subtitle>
+            <ion-card-subtitle> Molho R$00,00 </ion-card-subtitle>
+          </ion-card-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+          <ion-card-content>
+            Deleciosos guiozas com um recheio saboroso. Embalagens contendo 12
+            unidades congeladas prontas para o preparo de sua preferência.
+          </ion-card-content>
+        </ion-card>
+        <ion-card class="bg-yellow">
+          <ion-img
+            alt="Silhouette of mountains"
+            src="../../assets/fresh-pasta-5154229_1280-960x540.jpg"
+          ></ion-img>
+          <ion-card-header>
+            <ion-card-title>Talharin</ion-card-title>
+            <ion-card-subtitle> R$ 00,00 </ion-card-subtitle>
+          </ion-card-header>
+
+          <ion-card-content>
+            Massa fresca em formato de talharin. Rendimento: 3 pessoas (300g)
+          </ion-card-content>
+        </ion-card>
+        <ion-card class="bg-purple">
+          <ion-img
+            alt="Silhouette of mountains"
+            src="../../assets/20210625_144248.jpg"
+          ></ion-img>
+          <ion-card-header>
+            <ion-card-title>Talharin Colorido</ion-card-title>
+            <ion-card-subtitle> R$ 00,00 </ion-card-subtitle>
+          </ion-card-header>
+
+          <ion-card-content>
+            Talharin colorido! Indorporamos beterraba, couve e abóbora na massa.
+            As três cores são vendidas juntas. Rendimento: 3 pessoas (300g)
+          </ion-card-content>
+        </ion-card>
+        <ion-card class="bg-yellow">
+          <ion-img
+            alt="Silhouette of mountains"
+            src="../../assets/comprar-capeletti-02.jpg"
+          ></ion-img>
+          <ion-card-header>
+            <ion-card-title>Capeletti</ion-card-title>
+            <ion-card-subtitle> R$ 00,00 </ion-card-subtitle>
+          </ion-card-header>
+
+          <ion-card-content>
+            Delicioso Capelleti caseiro recheado com carne suina, frango e
+            queijo parmesão. Idela para caldos e ensopados. Embalagem contém
+            500g com um rendimento para 4 pessoas.
+          </ion-card-content>
+        </ion-card>
+      </ion-row>
+    </ion-col>
+  </ion-grid>
 </ion-content>

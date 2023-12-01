@@ -4,12 +4,11 @@
 /** Ionic CSS Variables **/
 :root {
   /** primary **/
-  --ion-color-primary: #3880ff;
+  --ion-color-primary: #FFBD4A;
   --ion-color-primary-rgb: 56, 128, 255;
   --ion-color-primary-contrast: #ffffff;
   --ion-color-primary-contrast-rgb: 255, 255, 255;
-  --ion-color-primary-shade: #3171e0;
-  --ion-color-primary-tint: #4c8dff;
+  --ion-color-primary-shade: #FFBD4A;
 
   /** secondary **/
   --ion-color-secondary: #3dc2ff;
@@ -153,11 +152,10 @@
    */
 
   .ios body {
-    --ion-background-color: #000000;
+    --ion-background-color: #FEDCA2;
     --ion-background-color-rgb: 0,0,0;
 
-    --ion-text-color: #ffffff;
-    --ion-text-color-rgb: 255,255,255;
+    --ion-text-color: #343434;
 
     --ion-color-step-50: #0d0d0d;
     --ion-color-step-100: #1a1a1a;
@@ -179,9 +177,9 @@
     --ion-color-step-900: #e6e6e6;
     --ion-color-step-950: #f2f2f2;
 
-    --ion-item-background: #000000;
+    --ion-item-background: #FDECCF;
 
-    --ion-card-background: #1c1c1d;
+    --ion-card-background: #FEDCA2;
   }
 
   .ios ion-modal {
@@ -197,11 +195,10 @@
    */
 
   .md body {
-    --ion-background-color: #121212;
+    --ion-background-color: #FDECCF;
     --ion-background-color-rgb: 18,18,18;
 
-    --ion-text-color: #ffffff;
-    --ion-text-color-rgb: 255,255,255;
+    --ion-text-color: #343434;
 
     --ion-border-color: #222222;
 
@@ -225,20 +222,20 @@
     --ion-color-step-900: #e7e7e7;
     --ion-color-step-950: #f3f3f3;
 
-    --ion-item-background: #1e1e1e;
+    --ion-item-background: #FEDCA2;
 
-    --ion-toolbar-background: #1f1f1f;
+    --ion-toolbar-background: #FEDCA2;
 
-    --ion-tab-bar-background: #1f1f1f;
+    --ion-tab-bar-background: #FEDCA2;
 
-    --ion-card-background: #1e1e1e;
+    --ion-card-background: #FEDCA2;
   }
 }
 
 html {
-  /* 
+  /*
    * For more information on dynamic font scaling, visit the documentation:
    * https://ionicframework.com/docs/layout/dynamic-font-scaling
    */
-  --ion-dynamic-font: var(--ion-default-dynamic-font);
+  --ion-dynamic-font: Poppins;
 }
