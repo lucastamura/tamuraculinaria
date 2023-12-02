@@ -1,7 +1,16 @@
 .container-card{
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
+
+.container-img{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
 ion-card {
   max-width: 400px;
   height: 100%;
