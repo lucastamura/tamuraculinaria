@@ -55,3 +55,14 @@ ion-card {
 .bg-purple{
   background-color: #CEDFA2;
 }
+
+.j-whatsapp-btn{
+  z-index: 1001;
+  position: fixed;
+  right: 2.5rem;
+  bottom: 2.5rem;
+  width: 56px;
+  height: 56px;
+  transition: 0.13s all ease-in-out;border-radius: 11px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+}
